@@ -1,0 +1,280 @@
+/*importing files*/
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+
+/*nav bar*/
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+}
+.navbar{
+    padding: 1rem 20rem;
+}
+.dc{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: black !important;
+}
+.logo{
+    margin-left: 25%;
+    width: 4rem;
+    height: 4rem;
+}
+.nav-item .nav-link{
+    font: normal 500 15px/2px var(--urbanist);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.navbar-nav .active a{
+    background-color: blue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+ .navbar-nav a:hover{
+    background-color: blue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/*banner*/
+.site-banner{
+   background: url(../images/banner/home-banner.png) no-repeat;
+   height: 100vh; width: 100vw;  background-position: center; background-size: cover; padding-right: 3%; padding-left: 5%; box-sizing: border-box; position: relative;
+}
+.site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+}
+.site-title h3::after{
+content: " ";
+height: 2px;
+width: 18vw;
+background: black;
+display: inline-block;
+margin-left: 5%;
+transform: translateY(-10px);
+}
+.site-title h1{
+    font-size: 5rem;
+}
+.site-title h4{
+    font-size: 1.5rem;
+}
+/*about*/
+.image1{
+    height: 30rem;
+    width: 40rem;
+}
+ .about-area{
+    padding: 8rem 5rem;
+ }
+ .about-title h2> span{
+    display: block;
+    font: normal bold 49px/60px var(--urbanist);
+   letter-spacing: 21px;
+}
+.para{
+    padding: 0.4rem 0rem;
+}
+
+/*brand area*/
+.brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+.first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.single-brand{
+     border: 1px solid var(--border-color);
+     text-align: center;
+     padding: 1.8rem 0rem;
+     margin: 0.9rem 0rem;
+     width: 180px;
+     height: 100px;
+     cursor: pointer;
+     transition: transform 0.4s ease;
+}
+.single-brand > img{
+    width: 50%;
+}
+.single-brand:hover{
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+.single-brand:hover> img{
+    filter: brightness(0.15);
+}
+.experience-area{
+    padding-left: 1rem;
+}
+.experience-area span{
+    display: block;
+}
+.years-area {
+    background: url(../images/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+.bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background-color:#e029290a ;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+.years{
+    font: normal bold 84px/40px var(--urbanist);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+.years-area h2 > span{
+font: normal 600 22px/30px var(--urbanist);
+}
+.call-area{
+    padding-left: 7rem;
+    margin-right: -7rem;
+}
+
+/*services*/
+.project{
+    height: 20rem;
+    width: 30rem;
+}
+.services-area{
+    padding: 7rem 2rem;
+   }
+   
+   .services-title{
+     padding: 0 0.14rem;
+   }
+   
+   .services-title h1{
+     font-size: 35px;
+   }
+   
+   .services, .service-image{
+   background: rgba(258,252,253,0.973);
+   padding: 2rem 0;
+   width: 16rem;
+   margin: 5rem .5rem;
+   transition: box-shadow .7s ease;
+   }
+   
+   .services:hover{
+     box-shadow: var(--box-shadow);
+   }
+   
+   /*Project area*/
+   .project-area{
+     padding: 4rem 0;
+   }
+   .button-group button{
+     background: transparent;
+     border: none;
+     font: normal 500 16px/130px var(--urbanist);
+     text-transform: uppercase;
+   }
+   .button-group button + button{
+     padding-left: 3rem;
+   }
+   .our-project > .title h4{
+     font: normal 700 25px/12px var(--urbanist);
+   }
+   .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+   }
+   
+   /*clients*/
+   .about-title p{
+padding: 1rem 7rem;
+   }
+
+.client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+.client-img{
+    padding: 2rem;
+}
+.about-client{
+    padding-top: 2rem;
+}
+.about-client h4{
+font: normal 500 21px/20px var(--urbanist);
+
+}
+.about-client p{
+font-size: 14px;
+}
+.owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+.owl-dot .active span{
+background: var(--primary-color);
+width: 12px;
+height: 12px;
+}
+
+/*subscribe*/
+.subscribe{
+    background: url(../images/subscribe.jpg) no-repeat;
+    height: 100vh; width: 100vw;  background-position: center; background-size: cover; padding-right: 3%; padding-left: 5%; box-sizing: border-box; position: relative;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+.subscribe-title{
+    font: normal 700 30px/30px var(--urbanist);
+    color: whitesmoke;
+}
+.subscribe-title p{
+color:whitesmoke;
+padding: 1rem 4rem;
+}
+.input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--urbanist);
+}
+.input-textbox input::placeholder{
+ color: whitesmoke;
+}
+.btn-submit button{
+    background: whitesmoke;
+    color:black;
+    padding: 0.7rem 2rem;
+}
+
+/*footer*/
+.footer-area{
+    padding: 5rem 0;
+    background: url(../images/footer-bg.png);
+}
+
+.social h5{
+    font: normal 500 23px/30px var(--urbanist);
+}
+
+.social a >i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+.social a:hover >i{
+color: var(--primary-color);
+}
